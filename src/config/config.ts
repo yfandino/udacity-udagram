@@ -10,5 +10,8 @@ export const config = {
     "aws_region": process.env.UDAGRAM_REGION,
     "aws_profile": process.env.UDAGRAM_PROFILE,
     "aws_media_bucket": process.env.UDAGRAM_BUCKET
+  },
+  "jwt": {
+    "secret": process.env.JWT_TOKEN
   }
 }
