@@ -12,6 +12,6 @@ export const config = {
     "aws_media_bucket": process.env.UDAGRAM_BUCKET
   },
   "jwt": {
-    "secret": process.env.JWT_TOKEN
+    "secret": process.env.JWT_SECRET
   }
 }
